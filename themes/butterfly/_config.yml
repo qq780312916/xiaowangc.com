@@ -13,14 +13,18 @@ menu:
     分类: /categories/ || fas fa-folder-open
   #  Music: /music/ || fas fa-music
   #  Movie: /movies/ || fas fa-video
+
+  服务|| fa-solid fa-server:
+    Jenkins: https://jenkins.xiaowangc.com
+
   工具|| fas fa-screwdriver-wrench:
-    IP地址查询: https://api.xiaowangc.com || fas fa-location-dot
-    TLS检测工具: https://decoder.link/ || fa-brands fa-expeditedssl
-    TLS证书申请1: https://freessl.cn/ || fas fa-lock
-    TLS证书申请2: https://letsencrypt.org/ || fas fa-lock
-    TLS证书申请3: https://www.sslforfree.com/ || fas fa-lock
-    PromAlertRules: https://awesome-prometheus-alerts.grep.to/ || fa-brands fa-watchman-monitoring
-    TLS配置生成器: https://ssl-config.mozilla.org/ || fa-brands fa-expeditedssl
+    IP地址查询: https://api.xiaowangc.com 
+    TLS检测工具: https://decoder.link/ 
+    TLS证书申请1: https://freessl.cn/
+    TLS证书申请2: https://letsencrypt.org/ 
+    TLS证书申请3: https://www.sslforfree.com/
+    Prome告警规则: https://awesome-prometheus-alerts.grep.to/ 
+    TLS配置生成器: https://ssl-config.mozilla.org/ 
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
 
