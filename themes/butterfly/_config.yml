@@ -17,6 +17,7 @@ menu:
   服务|| fa-solid fa-server:
     Jenkins: https://jenkins.xiaowangc.com
     E-mail: https://mail.xiaowangc.com
+    Api: https://api.xiaowangc.com
 
   工具|| fas fa-screwdriver-wrench:
     IP地址查询: https://api.xiaowangc.com 
