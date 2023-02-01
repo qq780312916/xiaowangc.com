@@ -8,7 +8,11 @@ tags:
   - Gitlab
   - Git
 ---
+
+**可在web界面配置**
+
 ```shell
+
 [root@xiaowangc ~]# vi /opt/gitlab/embedded/service/gitlab-rails/config/gitlab.yml
 ...
 production: &base
