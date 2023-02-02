@@ -37,10 +37,20 @@ function config_cri_env(){
 tee > /etc/modules-load.d/k8s.conf << EOF
 overlay
 br_netfilter
+ip_vs
+ip_vs_rr
+ip_vs_wrr
+ip_vs_sh
+nf_conntrack
 EOF
 
 modprobe overlay
-modprobe br_netfilter    
+modprobe br_netfilter  
+modprobe ip_vs
+modprobe ip_vs_rr
+modprobe ip_vs_wrr
+modprobe ip_vs_sh 
+modprobe nf_conntrack
 
 tee > /etc/sysctl.d/k8s.conf << EOF
 net.bridge.bridge-nf-call-iptables  = 1
