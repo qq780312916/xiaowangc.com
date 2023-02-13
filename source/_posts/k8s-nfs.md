@@ -1,11 +1,12 @@
 ---
 title: Kubernetes-NFS存储类
-date: 2023-02-07 09:55:01
 tags:
   - kubernetes
   - NFS
 categories: Kubernetes
 cover: img/fengmian/k8s.jpeg
+abbrlink: 6f6d9299
+date: 2023-02-07 09:55:01
 ---
 # Kubernetes-NFS存储类
 
